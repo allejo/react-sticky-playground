@@ -1,0 +1,27 @@
+{
+  "name": "react-sticky-javascript-refactored",
+  "version": "1.0.0",
+  "description": "Demo of blog entry - https://sung.codes/blog/2019/08/24/react-sticky-event-with-intersection-observer/",
+  "keywords": [],
+  "main": "src/index.js",
+  "dependencies": {
+    "react": "16.9.0",
+    "react-dom": "16.9.0",
+    "react-scripts": "3.1.1"
+  },
+  "devDependencies": {
+    "typescript": "3.3.3"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
+  },
+  "browserslist": [
+    ">0.2%",
+    "not dead",
+    "not ie <= 11",
+    "not op_mini all"
+  ]
+}

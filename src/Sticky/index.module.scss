@@ -1,0 +1,36 @@
+.sticky {
+  position: sticky;
+  top: 0;
+  padding: 1.5rem;
+  background-color: rebeccapurple;
+  color: white;
+}
+
+
+.sticky__section {
+  position: relative;
+}
+
+.sticky__sentinel_top {
+  background: yellowgreen;
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  z-index: -1;
+
+  display: flex; align-items: center; justify-content: center;
+  visibility: hidden;
+}
+
+.sticky__sentinel_bottom {
+  z-index: 1;
+  background: rgba(255, 255, 0, 0.253);
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 0;
+
+  display: flex; align-items: center; justify-content: center;
+  visibility: hidden;
+}
